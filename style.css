@@ -59,6 +59,10 @@ button {
 .orange-color {
   color: orange;
 }
+.offer-button p {
+  color: aliceblue;
+  font-size: medium;
+}
 .flexiable-content {
   display: flex;
   margin-bottom: 30px;
