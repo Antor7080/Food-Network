@@ -1,0 +1,154 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  margin: 0;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(images/food/Project\ Cover4.png);
+  border: 1px solid rgb(7, 0, 0);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px 10px 15px;
+  color: rgb(90, 88, 88);
+}
+.up-button {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+  border-image: 10px solid white;
+  border-radius: 40px;
+}
+.up-button ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.up-button ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+button {
+  width: 200px;
+  margin-left: 50px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: transparent;
+  color: aliceblue;
+  cursor: pointer;
+}
+.button1 {
+  margin: 150px 300px 100px 400px;
+  color: aliceblue;
+  text-align: justify;
+}
+
+.orange-color {
+  color: orange;
+}
+.flexiable-content {
+  display: flex;
+  margin-bottom: 30px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  margin: 50px 10px;
+  color: rgb(90, 88, 88);
+}
+
+.half-width img {
+  width: 100%;
+}
+.half-width h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.half-width p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-weight: bolder;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 20px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+  color: aliceblue;
+}
+.about-me {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+#my-image {
+  width: 55%;
+  margin-left: 170px;
+}
+.My-Recipies {
+  text-align: center;
+  color: rgb(68, 67, 67);
+  font-weight: 800;
+}
+.My-Recipies h1 {
+  font-size: 40px;
+}
+
+#top-left {
+  line-height: 18px;
+  padding: 150px 0;
+  margin-left: 100px;
+}
+.Recipie-section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Recipie-section img {
+  border-image: 10px solid white;
+  border-radius: 40px;
+}
+.half-width1 {
+  width: 50%;
+  padding: 30px;
+  margin: 40px;
+  box-shadow: 10px 10px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.half-width1 h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.half-width1 p {
+  color: rgb(90, 88, 88);
+}
+.half-width1 img {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  color: rgb(90, 88, 88);
+}
+footer h4 {
+  font-weight: 100;
+}
