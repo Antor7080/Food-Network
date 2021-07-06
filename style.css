@@ -85,8 +85,13 @@ button {
 
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
-  padding: 20px 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(197, 131, 9),
+    rgb(241, 48, 13)
+  );
+
+  padding: 15px 25px;
   border-radius: 30px;
   font-weight: 700;
   font-size: 25px;
