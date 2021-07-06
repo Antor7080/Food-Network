@@ -10,10 +10,10 @@ body {
   border: 1px solid rgb(7, 0, 0);
   background-size: cover;
   background-position: center;
-  box-shadow: 10px 10px 15px;
+  box-shadow: 5px 2px 50px;
   color: rgb(90, 88, 88);
 }
-.up-button {
+.banner-button {
   width: 85%;
   margin: auto;
   padding: 35px 0;
@@ -27,12 +27,12 @@ body {
   border-image: 10px solid white;
   border-radius: 40px;
 }
-.up-button ul li {
+.banner-button ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
 }
-.up-button ul li a {
+.banner-button ul li a {
   text-decoration: none;
   color: aliceblue;
   text-transform: uppercase;
@@ -49,10 +49,11 @@ button {
   color: aliceblue;
   cursor: pointer;
 }
-.button1 {
-  margin: 150px 300px 100px 400px;
+.offer-button {
+  margin: 50px 300px 100px 300px;
   color: aliceblue;
-  text-align: justify;
+  text-align: center;
+  font-size: 20px;
 }
 
 .orange-color {
@@ -124,23 +125,60 @@ button {
   border-image: 10px solid white;
   border-radius: 40px;
 }
-.half-width1 {
+.Recipie-width {
   width: 50%;
   padding: 30px;
   margin: 40px;
-  box-shadow: 10px 10px 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 50px;
   font-weight: 700;
 }
-.half-width1 h1 {
+.Recipie-width h1 {
   font-weight: bold;
   font-size: xx-large;
 }
-.half-width1 p {
+.Recipie-width p {
   color: rgb(90, 88, 88);
 }
-.half-width1 img {
+.Recipie-width img {
   width: 100%;
+}
+.food-section {
+  border: solid #011a17;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.food-section h1 {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgb(131, 68, 9);
+  font-size: 50px;
+  border: solid beige;
+  border-radius: 20px;
+  box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.15);
+}
+.food-collection {
+  display: flex;
+  width: 50%;
+  margin: 20px;
+}
+.foods {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  font-weight: 700;
+  align-items: center;
+}
+.foods img {
+  height: 295px;
+  width: 295px;
+  border-radius: 40px;
 }
 footer {
   text-align: center;
